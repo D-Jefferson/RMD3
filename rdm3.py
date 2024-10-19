@@ -182,7 +182,7 @@ class App(ctk.CTk):
         btn_apagar = ctk.CTkButton(self.main_frame, text="Apagar", width=10, height=6, command=self.apagar_texto,font=ctk.CTkFont(size=10), fg_color="gray25", hover_color="red")
         btn_apagar.pack(pady=0)
 
-        self.inserir = ctk.CTkTextbox(self.main_frame, width=500, height=150,border_width=1,border_color="gray40",placeholder="Cole aqui...")
+        self.inserir = ctk.CTkTextbox(self.main_frame, width=500, height=150,border_width=1,border_color="gray40")
         self.inserir.pack(pady=1)        
         
         self.seg_button_1 = ctk.CTkSegmentedButton(self.main_frame)
